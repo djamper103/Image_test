@@ -1,0 +1,18 @@
+.Gallery{
+    margin: 40px 80px 0px 80px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Gallery img{
+   width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.Items{
+    flex: 1 1 calc( 100% / 4);
+    width: 200px;
+    height: 400px;
+    border: 0.2px solid rgba(137, 128, 128, 0.76);
+    margin: 40px 0px 5px 0px ;
+    padding: 10px;
+}
